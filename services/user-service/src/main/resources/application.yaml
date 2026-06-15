@@ -1,0 +1,40 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: user-service
+
+  datasource:
+    url: jdbc:postgresql://postgres:5432/platform_db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate.default_schema: user_schema
+
+  flyway:
+    enabled: true
+    schemas: user_schema
+    default-schema: user_schema
+
+jwt:
+  secret: "very-secure-secret-key-change-this-later-very-long"
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} correlationId=%X{correlationId:-} %-5level %logger{36} - %msg%n"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: always
