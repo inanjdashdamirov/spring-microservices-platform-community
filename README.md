@@ -236,7 +236,9 @@ It will include:
 - Advanced security
 - Full architecture documentation
 
-If you are interested in early access, contact me on [LinkedIn](https://www.linkedin.com/in/inanj-dashdamirov).
+If you are interested in early access, fill out the [interest form](https://forms.gle/TYcuHBozFJGjAwEg6).
+
+You can also contact me on [LinkedIn](https://www.linkedin.com/in/inanj-dashdamirov).
 
 ---
 
