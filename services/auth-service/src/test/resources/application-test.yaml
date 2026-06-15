@@ -1,0 +1,27 @@
+server:
+  port: 0
+
+spring:
+  datasource:
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate.default_schema: auth_schema
+
+  flyway:
+    enabled: true
+    schemas: auth_schema
+    default-schema: auth_schema
+
+jwt:
+  secret: "test-jwt-secret-key-for-unit-and-integration-tests-32chars"
+  expiration: 60000
+  refresh-expiration: 3600000
+
+logging:
+  level:
+    root: WARN

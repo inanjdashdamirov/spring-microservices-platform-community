@@ -129,6 +129,24 @@ More: [docs/installation.md](docs/installation.md)
 
 ---
 
+## Testing
+
+Run tests from the project root:
+
+```bash
+./mvnw test
+```
+
+**Current coverage:** gateway-service context-load smoke test (`GatewayServiceApplicationTests`).
+
+Auth-service and user-service include `application-test.yaml` scaffolding for future unit, WebMvc, and Testcontainers integration tests (planned for v1.1).
+
+**Notes:**
+
+- Docker image builds can skip tests: `./mvnw package -DskipTests`
+
+---
+
 ## API Examples
 
 All requests go through the gateway.
@@ -207,7 +225,7 @@ spring-microservices-platform-community-v.1.0/
 
 **v1.1 — Stability**
 
-- End-to-end smoke tests
+- End-to-end smoke tests (per-service unit, slice, and integration tests)
 - Unified error model across all layers
 - `.env.example`, Postman collection
 

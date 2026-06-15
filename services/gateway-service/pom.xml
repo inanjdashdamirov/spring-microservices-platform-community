@@ -8,7 +8,7 @@
         <version>3.5.14</version>
         <relativePath/>
     </parent>
-    <groupId>com.example</groupId>
+    <groupId>msp.community</groupId>
     <artifactId>gateway-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>gateway-service</name>
@@ -43,6 +43,12 @@
         <dependency>
             <groupId>io.projectreactor</groupId>
             <artifactId>reactor-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.wiremock</groupId>
+            <artifactId>wiremock-standalone</artifactId>
+            <version>3.9.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>

@@ -9,7 +9,7 @@
 
 ## v1.1 — Stability
 
-- [ ] End-to-end smoke tests for auth + user flow
+- [ ] Per-service unit, slice, and integration tests (gateway context-load smoke test only today)
 - [ ] Unified error response model across services (auth/user done; gateway alignment pending)
 - [x] Correlation ID propagation through gateway
 - [ ] `.env.example` for configuration

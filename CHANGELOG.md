@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.13] - 2026-06-15
+
+### Changed
+
+- Root packages renamed from `com.example.*` to `msp.community.*` (auth, gateway, user services)
+- Maven `groupId` updated to `msp.community` in all service POMs
+- README Testing section and roadmap aligned with current test coverage
+
+### Removed
+
+- In-repo `scripts/publish-to-github.ps1` (maintainer publish script lives outside this repository)
+
 ## [1.0.12] - 2026-06-15
 
 ### Added
