@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.12] - 2026-06-15
+
+### Added
+
+- GitHub Step 13: published public repository with description and topics
+
+### Changed
+
+- README: added repository URL
+- `.gitignore`: explicit `**/target/` pattern
+
 ## [1.0.11] - 2026-06-15
 
 ### Changed
