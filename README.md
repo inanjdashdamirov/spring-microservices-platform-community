@@ -221,6 +221,25 @@ spring-microservices-platform-community-v.1.0/
 
 ---
 
+## Professional Edition
+
+The Professional Edition is currently in development.
+
+It will include:
+
+- Kafka event-driven architecture
+- Redis caching
+- Kubernetes deployment
+- Prometheus & Grafana monitoring
+- Distributed tracing
+- CI/CD pipeline
+- Advanced security
+- Full architecture documentation
+
+If you are interested in early access, contact me on [LinkedIn](https://www.linkedin.com/in/inanj-dashdamirov).
+
+---
+
 ## Professional Edition Roadmap
 
 **v1.1 — Stability**
@@ -257,6 +276,7 @@ Copyright (c) 2026 Inanj Dashdamirov
 **Inanj Dashdamirov**
 
 - GitHub: [@inanjdashdamirov](https://github.com/inanjdashdamirov)
+- LinkedIn: [inanj-dashdamirov](https://www.linkedin.com/in/inanj-dashdamirov)
 - Email: inanjdashdamirov@gmail.com
 
 Built as part of the Spring Microservices Platform product line (Community → Professional → Architect).
