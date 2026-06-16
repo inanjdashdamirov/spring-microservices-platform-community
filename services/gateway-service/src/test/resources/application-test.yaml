@@ -4,6 +4,10 @@ server:
 jwt:
   secret: "test-jwt-secret-key-for-unit-and-integration-tests-32chars"
 
+test:
+  downstream:
+    url: http://localhost:18080
+
 spring:
   cloud:
     gateway:
@@ -11,13 +15,13 @@ spring:
         webflux:
           routes:
             - id: auth-service
-              uri: http://localhost:18080
+              uri: ${test.downstream.url}
               predicates:
                 - Path=/api/auth/**
               filters:
                 - StripPrefix=1
             - id: user-service
-              uri: http://localhost:18080
+              uri: ${test.downstream.url}
               predicates:
                 - Path=/api/users/**
 
