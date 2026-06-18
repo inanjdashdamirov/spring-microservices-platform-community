@@ -1,4 +1,5 @@
 # Spring Microservices Platform Community Edition
+[![Get Professional Edition](https://img.shields.io/badge/Get%20Professional%20Edition-$49-blue?style=for-the-badge)](https://inanjdashdamirov.gumroad.com/l/backendpilot-professional-edition)
 
 **Repository:** https://github.com/inanjdashdamirov/spring-microservices-platform-community
 
